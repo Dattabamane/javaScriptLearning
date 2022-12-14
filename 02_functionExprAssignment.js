@@ -41,18 +41,13 @@ swapValues(1000, 2000);
 
 console.log("===============================================");
 console.log("======string======");
-console.log("5.");
+console.log("2.");
 
 var string =function(){
-    var name1="Js the most popular language";
+    var name1="i am angular developer";
     console.log(name1);
-    console.log("Total Charactres in the string is",":", name1.length);
-    console.log("Charactre at index 5 is", ":", name1.charAt(5));
-    console.log("Charactre at index 10 is", ":", name1.charAt(10));
-    var totalLength=name1.length;
-    console.log("Charactre at last index is", ":", name1.charAt(totalLength-1));
-    console.log("First Charactre in the string is", ":", name1.charAt(0));
-    console.log("Square length of given string is", ":", totalLength*totalLength);
+    console.log("Total Length of string is",":", name1.length);
+    console.log("Totale words in string is :",name1.);
 }
 string();
 
