@@ -47,7 +47,7 @@ var string =function(){
     var name1="i am angular developer";
     console.log(name1);
     console.log("Total Length of string is",":", name1.length);
-    console.log("Totale words in string is :",name1.);
+    console.log("Totale words in string is :",name1.split(" ").length);
 }
 string();
 
