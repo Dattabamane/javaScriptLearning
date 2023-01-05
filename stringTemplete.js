@@ -12,3 +12,55 @@ var stringTemplete=function(company){
 
 }
 stringTemplete(`1. my dream company name is ": TCS`);
+var greet = "Good morning";
+var uper = greet.toUpperCase();
+console.log(uper);
+var lower = greet.toLowerCase();
+console.log(lower);
+var lower = greet.toLowerCase("");
+console.log(lower);
+console.log("==============trim()=================");
+var greet = "    Good morning    ";
+var fulllength = greet.length;
+console.log("length:",fulllength);
+var cutSpace = greet.trim();
+console.log(cutSpace, "length :", cutSpace.length);
+
+console.log("==============trimstart()=================");
+
+ var cutSpace = greet.trimStart();
+console.log(cutSpace);
+ console.log(cutSpace, "length :", cutSpace.length);
+
+ console.log("==============trimend()=================");
+
+var cutSpace = greet.trimEnd();
+console.log(cutSpace);
+console.log(cutSpace, "length :", cutSpace.length);
+
+console.log("===============================");
+
+var greet = "Good morning";
+var resultSlice = greet.slice(0,4);
+console.log("slice method :",resultSlice);
+
+var resultSlice = greet.slice(4);
+console.log(resultSlice);
+console.log("slice() with start index :",greet.slice(4));
+
+console.log("slice() with negative start index :",greet.slice(-7));
+console.log("slice() with negative start and end index :",greet.slice(-7,-2));
+
+console.log("===============================");
+var sentence = "yes you can do it guys, just keep learning and practising as well";
+var totallength = sentence.length;
+console.log(totallength);
+var wordInSentence = sentence.split(" ");
+console.log("total word in string is:",wordInSentence.length);
+
+console.log("============square of string===================");
+
+var sentence = "yes you can do it guys, just keep learning and practising as well";
+var totallength = sentence.length;
+var let = totallength * totallength ;
+console.log(let);
