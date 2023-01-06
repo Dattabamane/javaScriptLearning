@@ -16,12 +16,11 @@ console.log("-------------------------------------");
 
 var profile = function () {
     var domain = "I am Angular Developer";
-   
-    console.log("Length of String is :", domain.length);
-    console.log("total No of Words :", domain.split(" ").length);
-  
     var length = domain.length;
+    console.log("Length of String is :", length);
     var split = domain.split(" ").length;
+    console.log("total No of Words :",split.length);
+    
     console.log(`1.Using Division Operator ${length/split}`);
     console.log(`2.Using Multiplication Operator ${length*split}`);
 

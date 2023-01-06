@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Session Storage</title>
+  </head>
+  <body>
+    <h2>Session Storage Learning</h2>
+    <script>
+      window.sessionStorage.setItem("name", "Dattatray");
+      window.sessionStorage.setItem("age", 26);
+      window.sessionStorage.setItem("heigth", 5);
+      window.sessionStorage.setItem("city", "pandharpur");
+      const len = window.sessionStorage.length;
+      console.log(len);
+      const cityName = window.sessionStorage.getItem("college");
+      console.log(cityName);
+    //   window.sessionStorage.removeItem("age"); // window.sessionStorage.clear();
+    </script>
+  </body>
+</html>
