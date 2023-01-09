@@ -10,10 +10,10 @@ console.log("2]=========less than ( > )====================");
 var result = num2 < num3;
 console.log(`10 is less than 5 : ${result}`);
 
-console.log("3]=========Greater than or eual to  ( >= )====================");
+console.log("3]=========Greater than equal to  ( >= )====================");
 var result = num1 >= num3;
-console.log(`10 is Greater than or eual to  10 : ${result}`);
+console.log(`10 is Greater than equal to  10 : ${result}`);
 
-console.log("4]=========less than or eual to  ( >= )====================");
+console.log("4]=========less than equal to  ( >= )====================");
 var result = num1 <= num3;
-console.log(`10 is less than or eual to 10 : ${result}`);
+console.log(`10 is less than equal to 10 : ${result}`);
