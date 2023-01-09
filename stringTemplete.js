@@ -57,7 +57,6 @@ var totallength = sentence.length;
 console.log(totallength);
 var wordInSentence = sentence.split(" ");
 console.log("total word in string is:",wordInSentence.length);
-console.log(totallength/wordInSentence);
 
 console.log("============square of string===================");
 
