@@ -4,7 +4,7 @@ var sentence = function(st){
     console.log(`1.Length of given string:${result.length}`);
     var trimResult = st.trim();
     console.log(`2.sentence after trim:${trimResult}`);
-   // console.log(`After removing all black spaces length of dtring is :${trimResult.lrngth}`);
+   // console.log(`After removing all back spaces length of dtring is :${trimResult.lrngth}`);
     console.log(`3.Length of string after trim:${trimResult.length}`);
     console.log("4.Character at first index:", trimResult.charAt(0) , "Character at last index:",trimResult.charAt(33));
    // console.log("Character at first index:",trimResult.charAt(0), "Character at last index:",trimResult.charAt(length-1));
